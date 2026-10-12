@@ -1,0 +1,27 @@
+# Large simulation datasets
+data/
+project_feature/
+
+# Scientific binary files
+*.npz
+*.npy
+*.traj
+*.chk
+*.cube
+
+# Generated figures
+*.png
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+.env
+
+# Cluster files
+slurm-*.out
+*.log
