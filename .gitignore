@@ -28,3 +28,11 @@ __pycache__/
 # HPC output
 slurm-*.out
 *.log
+
+# TensorFlow model checkpoints
+*.ckpt-*.data-*
+*.ckpt-*.index
+*.ckpt-*.meta
+
+# Jupyter virtual documents
+.virtual_documents/
