@@ -1,27 +1,30 @@
-# Large simulation datasets
-data/
+# Large project datasets
 project_feature/
+data/
 
-# Scientific binary files
+# Scientific data
 *.npz
 *.npy
 *.traj
-*.chk
 *.cube
+*.chk
+*.dat
 
 # Generated figures
 *.png
 *.pdf
+*.svg
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Environments
+# Environments and secrets
 .venv/
 .env
+.env.*
 
-# Cluster files
+# HPC output
 slurm-*.out
 *.log
